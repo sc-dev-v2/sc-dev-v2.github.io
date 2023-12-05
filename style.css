@@ -1,0 +1,85 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.dashboard {
+    background-color: rgb(255, 255, 255);
+}
+
+.dashboard h1 {
+    text-align: center;
+    margin: 0;
+    padding: 15px 0px 15px;
+    color: rgb(253, 253, 253);
+    font-family: roboto, sans-serif;
+    font-size: 45px;
+    Font-weight: middle;
+    background-color: #030325;
+
+}
+
+
+.container {
+    display: block;
+
+
+}
+
+.container table {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 550px;
+    border-collapse: collapse;
+    
+
+    background-color: rgb(241, 243, 238);
+}
+
+.container td {
+
+    padding: 5px 0px 5px 10px;
+
+    color: #020235;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: middle;
+}
+
+
+.camera_block {
+    width: 423px;
+    height: 305px;
+    margin: 15px 15px 15px;
+
+    border: 2px solid rgb(155, 189, 152);
+    background-color: rgb(49, 70, 139);
+}
+
+.camera_block h3 {
+    height: 35px;
+    margin: 0;
+    padding: 12px;
+
+    color: #020235;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: middle;
+
+    background-color: rgb(201, 236, 201);
+}
+
+.camera_block img {
+    width: 422px;
+    height: 245px;
+
+    opacity: 1;
+}
+
+.camera_block img:hover {
+    opacity: 0.7;
+}
+video {
+    object-fit: contain;
+    overflow: clip;
+}
