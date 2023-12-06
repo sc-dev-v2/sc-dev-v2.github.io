@@ -14,7 +14,7 @@
             <div class="block_nav_pdf">
                 <div>
                     <h1>Мониторинг пожароопасной ситуации</h1>
-                    <p>МОД (2).pdf</p>
+                    <p>4МОД (2).pdf</p>
                     <input id="color-input1" type="button" value="Показать" onmousedown="viewDiv1()">
                 </div>
                 <div>
@@ -24,13 +24,18 @@
                 </div>
                 <div>
                     <h1>Оперативный ежедневный сводный прогноз ВО</h1>
-                    <p>ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.pdf</p>
+                    <p>ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.PDF</p>
                     <input id="color-input3" type="button" value="Показать" onmousedown="viewDiv3()">
                 </div>
                 <div>
-                    <h1>Информационное донесение</h1>
-                    <p>Информационное донесение ИВ-219-22-539.pdf</p>
+                    <h1>Краткосрочный недельный прогноз ВО</h1>
+                    <p>2.Прогноз ВО недельный 07-13.12.2023 ИВ-219-4421.pdf</p>
                     <input id="color-input4" type="button" value="Показать" onmousedown="viewDiv4()">
+                </div>
+                <div>
+                    <h1>Информационное донесение</h1>
+                    <p>Информационное донесение ИВ-219-22-539.PDF</p>
+                    <input id="color-input5" type="button" value="Показать" onmousedown="viewDiv5()">
                 </div>
             </div>
 
@@ -42,10 +47,13 @@
                     <embed src="Data_store/3932-20-3-6 Прогноз ЧС по ЮФО на 06 декабря.pdf" />
                 </div>
                 <div id="CHS_VO">
-                    <embed src="Data_store/ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.pdf" />
+                    <embed src="Data_store/ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.PDF" />
+                </div>
+                <div id="KNP_VO">
+                    <embed src="Data_store/2.Прогноз ВО недельный 07-13.12.2023 ИВ-219-4421.pdf" />
                 </div>
                 <div id="IDIV">
-                    <embed src="Data_store/Информационное донесение ИВ-219-22-539.pdf" />
+                    <embed src="Data_store/Информационное донесение ИВ-219-22-539.PDF" />
                 </div>
             </div>
         </div>
@@ -56,59 +64,91 @@
             document.getElementById("MOD").style.display = "block";
             document.getElementById("CHS_UFO").style.display = "none";
             document.getElementById("CHS_VO").style.display = "none";
+            document.getElementById("KNP_VO").style.display = "none";
             document.getElementById("IDIV").style.display = "none";
 
             document.getElementById("color-input1").style.color = "#ffffff"
             document.getElementById("color-input2").style.color = "#000"
             document.getElementById("color-input3").style.color = "#000"
             document.getElementById("color-input4").style.color = "#000"
+            document.getElementById("color-input5").style.color = "#000"
             document.getElementById("color-input1").style.background = "rgb(49, 70, 139)";
             document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
         };
         function viewDiv2() {
             document.getElementById("MOD").style.display = "none";
             document.getElementById("CHS_UFO").style.display = "block";
             document.getElementById("CHS_VO").style.display = "none";
+            document.getElementById("KNP_VO").style.display = "none";
             document.getElementById("IDIV").style.display = "none";
             document.getElementById("color-input1").style.color = "#000"
             document.getElementById("color-input2").style.color = "#ffffff"
             document.getElementById("color-input3").style.color = "#000"
             document.getElementById("color-input4").style.color = "#000"
+            document.getElementById("color-input5").style.color = "#000"
             document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input2").style.background = "rgb(49, 70, 139)";
             document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
         };
         function viewDiv3() {
             document.getElementById("MOD").style.display = "none";
             document.getElementById("CHS_UFO").style.display = "none";
             document.getElementById("CHS_VO").style.display = "block";
+            document.getElementById("KNP_VO").style.display = "none";
             document.getElementById("IDIV").style.display = "none";
             document.getElementById("color-input1").style.color = "#000"
             document.getElementById("color-input2").style.color = "#000"
             document.getElementById("color-input3").style.color = "#ffffff"
             document.getElementById("color-input4").style.color = "#000"
+            document.getElementById("color-input5").style.color = "#000"
             document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input3").style.background = "rgb(49, 70, 139)";
             document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
         };
 
         function viewDiv4() {
             document.getElementById("MOD").style.display = "none";
             document.getElementById("CHS_UFO").style.display = "none";
             document.getElementById("CHS_VO").style.display = "none";
-            document.getElementById("IDIV").style.display = "block";
+            document.getElementById("KNP_VO").style.display = "block";
+            document.getElementById("IDIV").style.display = "none";
+
             document.getElementById("color-input1").style.color = "#000"
             document.getElementById("color-input2").style.color = "#000"
             document.getElementById("color-input3").style.color = "#000"
             document.getElementById("color-input4").style.color = "#ffffff"
+            document.getElementById("color-input5").style.color = "#000"
             document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
             document.getElementById("color-input4").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
+        };
+
+        function viewDiv5() {
+            document.getElementById("MOD").style.display = "none";
+            document.getElementById("CHS_UFO").style.display = "none";
+            document.getElementById("CHS_VO").style.display = "none";
+            document.getElementById("KNP_VO").style.display = "none";
+            document.getElementById("IDIV").style.display = "block";
+
+            document.getElementById("color-input1").style.color = "#000"
+            document.getElementById("color-input2").style.color = "#000"
+            document.getElementById("color-input3").style.color = "#000"
+            document.getElementById("color-input4").style.color = "#000"
+            document.getElementById("color-input5").style.color = "#ffffff"
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "rgb(49, 70, 139)";
         };
 
         function myFunctionSearch() {

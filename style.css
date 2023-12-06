@@ -15,6 +15,10 @@ body {
     display: none;
 }
 
+#KNP_VO {
+    display: none;
+}
+
 #IDIV {
     display: none;
 }
@@ -53,13 +57,22 @@ body {
     background-color: hsl(225, 19%, 92%);
 }
 
+#color-input5 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+
+    background-color: hsl(225, 19%, 92%);
+}
+
 .dashboard {
     background-color: rgb(255, 255, 255);
 }
 
 .dashboard>h1 {
     text-align: center;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 15px 0px 15px;
     color: rgb(253, 253, 253);
     font-family: roboto, sans-serif;
@@ -74,11 +87,13 @@ body {
 
 .block_nav_pdf {
     width: 30%;
+    height: 770px;
+    overflow: auto;
 }
 
 .block_nav_pdf h1 {
-    margin: 20px 0 0 0;
-    padding: 15px 15px 15px 10px;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
 
     color: rgb(253, 253, 253);
     font-family: roboto, sans-serif;
@@ -89,7 +104,7 @@ body {
 
 .block_nav_pdf p {
     margin: 0 0 0 0;
-    padding: 15px 15px 15px 10px;
+    padding: 10px 10px 10px 10px;
 
     color: rgb(0, 0, 0);
     font-family: roboto, sans-serif;
@@ -101,7 +116,7 @@ body {
 .block_nav_pdf input {
     width: 180px;
     height: 35px;
-    margin: 0 15px 0 10px;
+    margin: 0 15px 15px 10px;
 
     color: rgb(0, 0, 0);
     font-family: roboto, sans-serif;
@@ -111,13 +126,14 @@ body {
 
 .block_view_pdf {
     width: 70%;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 0;
 
 }
 
 .block_view_pdf embed {
     width: 100%;
-    height: 900px;
+    height: 870px;
+
 }
 
 /* .container table {
