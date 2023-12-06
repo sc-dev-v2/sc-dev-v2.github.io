@@ -124,6 +124,10 @@ body {
     Font-weight: middle;
 }
 
+.block_nav_pdf input:hover {
+    transition: 0.7s;
+}
+
 .block_view_pdf {
     width: 70%;
     margin: 0 0 0 0;
