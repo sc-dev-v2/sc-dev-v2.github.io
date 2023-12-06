@@ -3,6 +3,22 @@ body {
     margin: 0;
 }
 
+#MOD {
+    display: block;
+}
+
+#CHS_UFO {
+    display: none;
+}
+
+#CHS_VO {
+    display: none;
+}
+
+#IDIV {
+    display: none;
+}
+
 #color-input1 {
     color: rgb(255, 255, 255);
     font-family: roboto, sans-serif;
@@ -41,17 +57,16 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.dashboard h1 {
+.dashboard>h1 {
     text-align: center;
     margin: 0;
     padding: 15px 0px 15px;
     color: rgb(253, 253, 253);
     font-family: roboto, sans-serif;
-    font-size: 45px;
+    font-size: 25px;
     Font-weight: middle;
     background-color: #030325;
 }
-
 
 .container {
     display: flex;
@@ -60,17 +75,57 @@ body {
 .block_nav_pdf {
     width: 30%;
 }
-.block_view_pdf {
-    width: 70%;
+
+.block_nav_pdf h1 {
+    margin: 20px 0 0 0;
+    padding: 15px 15px 15px 10px;
+
+    color: rgb(253, 253, 253);
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    Font-weight: middle;
+    background-color: #030325;
+}
+
+.block_nav_pdf p {
+    margin: 0 0 0 0;
+    padding: 15px 15px 15px 10px;
+
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: middle;
 
 }
 
-.container table {
+.block_nav_pdf input {
+    width: 180px;
+    height: 35px;
+    margin: 0 15px 0 10px;
+
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: middle;
+}
+
+.block_view_pdf {
+    width: 70%;
+    margin: 20px 0 0 0;
+
+}
+
+.block_view_pdf embed {
+    width: 100%;
+    height: 900px;
+}
+
+/* .container table {
     margin-top: 15px;
     margin-left: 15px;
     width: 550px;
     border-collapse: collapse;
-    
+
 
     background-color: rgb(241, 243, 238);
 }
@@ -118,7 +173,8 @@ body {
 .camera_block img:hover {
     opacity: 0.7;
 }
+
 video {
     object-fit: contain;
     overflow: clip;
-}
+} */

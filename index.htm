@@ -13,39 +13,39 @@
         <div class="container">
             <div class="block_nav_pdf">
                 <div>
-                    <h2>Мониторинг пожароопасной ситуации</h2>
-                    <p>4МОД (2).pdf</p>
+                    <h1>Мониторинг пожароопасной ситуации</h1>
+                    <p>МОД (2).pdf</p>
                     <input id="color-input1" type="button" value="Показать" onmousedown="viewDiv1()">
                 </div>
                 <div>
-                    <h2>Оперативный ежедневный сводный прогноз ЮФО</h2>
+                    <h1>Оперативный ежедневный сводный прогноз ЮФО</h1>
                     <p>3932-20-3-6 Прогноз ЧС по ЮФО на 06 декабря.pdf</p>
                     <input id="color-input2" type="button" value="Показать" onmousedown="viewDiv2()">
                 </div>
                 <div>
-                    <h2>Оперативный ежедневный сводный прогноз ВО</h2>
+                    <h1>Оперативный ежедневный сводный прогноз ВО</h1>
                     <p>ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.pdf</p>
                     <input id="color-input3" type="button" value="Показать" onmousedown="viewDiv3()">
                 </div>
                 <div>
-                    <h2>Информационное донесение</h2>
+                    <h1>Информационное донесение</h1>
                     <p>Информационное донесение ИВ-219-22-539.pdf</p>
                     <input id="color-input4" type="button" value="Показать" onmousedown="viewDiv4()">
                 </div>
             </div>
 
             <div class="block_view_pdf">
-                <div id="4MOD">
-                    <embed src="Data_store/4МОД (2).pdf" width="100%" height=850px />
+                <div id="MOD">
+                    <embed src="Data_store/4МОД (2).pdf" />
                 </div>
                 <div id="CHS_UFO">
-                    <embed src="Data_store/3932-20-3-6 Прогноз ЧС по ЮФО на 06 декабря.pdf" width="100%" height=900px />
+                    <embed src="Data_store/3932-20-3-6 Прогноз ЧС по ЮФО на 06 декабря.pdf" />
                 </div>
                 <div id="CHS_VO">
-                    <embed src="Data_store/ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.pdf" width="100%" height=900px />
+                    <embed src="Data_store/ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.pdf" />
                 </div>
                 <div id="IDIV">
-                    <embed src="Data_store/Информационное донесение ИВ-219-22-539.pdf" width="100%" height=900px />
+                    <embed src="Data_store/Информационное донесение ИВ-219-22-539.pdf" />
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
     </div>
     <script>
         function viewDiv1() {
-            document.getElementById("4MOD").style.display = "block";
+            document.getElementById("MOD").style.display = "block";
             document.getElementById("CHS_UFO").style.display = "none";
             document.getElementById("CHS_VO").style.display = "none";
             document.getElementById("IDIV").style.display = "none";
@@ -68,7 +68,7 @@
             document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
         };
         function viewDiv2() {
-            document.getElementById("4MOD").style.display = "none";
+            document.getElementById("MOD").style.display = "none";
             document.getElementById("CHS_UFO").style.display = "block";
             document.getElementById("CHS_VO").style.display = "none";
             document.getElementById("IDIV").style.display = "none";
@@ -82,7 +82,7 @@
             document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
         };
         function viewDiv3() {
-            document.getElementById("4MOD").style.display = "none";
+            document.getElementById("MOD").style.display = "none";
             document.getElementById("CHS_UFO").style.display = "none";
             document.getElementById("CHS_VO").style.display = "block";
             document.getElementById("IDIV").style.display = "none";
@@ -97,7 +97,7 @@
         };
 
         function viewDiv4() {
-            document.getElementById("4MOD").style.display = "none";
+            document.getElementById("MOD").style.display = "none";
             document.getElementById("CHS_UFO").style.display = "none";
             document.getElementById("CHS_VO").style.display = "none";
             document.getElementById("IDIV").style.display = "block";
