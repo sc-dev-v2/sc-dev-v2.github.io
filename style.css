@@ -3,6 +3,40 @@ body {
     margin: 0;
 }
 
+#color-input1 {
+    color: rgb(255, 255, 255);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+    background-color: rgb(49, 70, 139);
+}
+
+#color-input2 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+    background-color: hsl(225, 19%, 92%);
+}
+
+#color-input3 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+
+    background-color: hsl(225, 19%, 92%);
+}
+
+#color-input4 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+
+    background-color: hsl(225, 19%, 92%);
+}
+
 .dashboard {
     background-color: rgb(255, 255, 255);
 }
@@ -16,13 +50,18 @@ body {
     font-size: 45px;
     Font-weight: middle;
     background-color: #030325;
-
 }
 
 
 .container {
-    display: block;
+    display: flex;
+}
 
+.block_nav_pdf {
+    width: 30%;
+}
+.block_view_pdf {
+    width: 70%;
 
 }
 

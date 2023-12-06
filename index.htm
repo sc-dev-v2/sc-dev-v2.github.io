@@ -11,73 +11,120 @@
     <div class="dashboard">
         <h1> ОДС Главного управления МЧС России по Волгоградской области</h1>
         <div class="container">
-            <table>
-                <tr>
-                    <td width="20px">9.</td>
-                    <td>3920-20-3-6 Прогноз ЧС по ЮФО на 05 декабря (УТОЧ).pdf</td>
-                    <td><a href="Data_store/3920-20-3-6 Прогноз ЧС по ЮФО на 05 декабря (УТОЧ).pdf" target="_blank"
-                            download="3920-20-3-6 Прогноз ЧС по ЮФО на 05 декабря (УТОЧ).pdf">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">8.</td>
-                    <td>ИВ-219-22-541 Прогноз ЧС ВО на 05.12.2023.PDF</td>
-                    <td><a href="Data_store/ИВ-219-22-541 Прогноз ЧС ВО на 05.12.2023.PDF" target="_blank"
-                            download="ИВ-219-22-541 Прогноз ЧС ВО на 05.12.2023.PDF">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">7.</td>
-                    <td>3910-20-3-6 Прогноз ЧС по ЮФО на 04 декабря.pdf</td>
-                    <td><a href="Data_store/3910-20-3-6 Прогноз ЧС по ЮФО на 04 декабря.pdf" target="_blank"
-                            download="3910-20-3-6 Прогноз ЧС по ЮФО на 04 декабря.pdf">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">6.</td>
-                    <td>ИВ-219-22-540 Прогноз ЧС ВО на 04.12.2023.PDF</td>
-                    <td><a href="Data_store/ИВ-219-22-540 Прогноз ЧС ВО на 04.12.2023.PDF" target="_blank"
-                            download="ИВ-219-22-540 Прогноз ЧС ВО на 04.12.2023.PDF">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">5.</td>
-                    <td>Информационное донесение ИВ-219-22-539.PDF</td>
-                    <td><a href="Data_store/Информационное донесение ИВ-219-22-539.PDF" target="_blank"
-                            download="Информационное донесение ИВ-219-22-539.PDF">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">4.</td>
-                    <td>3902-20-3-6 Прогноз ЧС по ЮФО на 03 декабря.pdf</td>
-                    <td><a href="Data_store/3902-20-3-6 Прогноз ЧС по ЮФО на 03 декабря.pdf" target="_blank"
-                            download="3902-20-3-6 Прогноз ЧС по ЮФО на 03 декабря.pdf">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">3.</td>
-                    <td>ИВ-219-22-538 Прогноз ЧС ВО на 03.12.2023.PDF</td>
-                    <td><a href="Data_store/ИВ-219-22-538 Прогноз ЧС ВО на 03.12.2023.PDF" target="_blank"
-                            download="ИВ-219-22-538 Прогноз ЧС ВО на 03.12.2023.PDF">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">2.</td>
-                    <td>4МОД (2).pdf</td>
-                    <td><a href="Data_store/4МОД (2).pdf" target="_blank" download="4МОД (2).pdf">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-                <tr>
-                    <td width="20px">1.</td>
-                    <td>ИВ-219-22-537 Прогноз ЧС ВО на 02.12.2023.PDF</td>
-                    <td><a href="Data_store/ИВ-219-22-537 Прогноз ЧС ВО на 02.12.2023.PDF" target="_blank"
-                            download="ИВ-219-22-537 Прогноз ЧС ВО на 02.12.2023.PDF">
-                            <img src="image/icon_dowload.png" alt="download" width="20px" height="20px"></a></td>
-                </tr>
-            </table>
+            <div class="block_nav_pdf">
+                <div>
+                    <h2>Мониторинг пожароопасной ситуации</h2>
+                    <p>4МОД (2).pdf</p>
+                    <input id="color-input1" type="button" value="Показать" onmousedown="viewDiv1()">
+                </div>
+                <div>
+                    <h2>Оперативный ежедневный сводный прогноз ЮФО</h2>
+                    <p>3932-20-3-6 Прогноз ЧС по ЮФО на 06 декабря.pdf</p>
+                    <input id="color-input2" type="button" value="Показать" onmousedown="viewDiv2()">
+                </div>
+                <div>
+                    <h2>Оперативный ежедневный сводный прогноз ВО</h2>
+                    <p>ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.pdf</p>
+                    <input id="color-input3" type="button" value="Показать" onmousedown="viewDiv3()">
+                </div>
+                <div>
+                    <h2>Информационное донесение</h2>
+                    <p>Информационное донесение ИВ-219-22-539.pdf</p>
+                    <input id="color-input4" type="button" value="Показать" onmousedown="viewDiv4()">
+                </div>
+            </div>
+
+            <div class="block_view_pdf">
+                <div id="4MOD">
+                    <embed src="Data_store/4МОД (2).pdf" width="100%" height=850px />
+                </div>
+                <div id="CHS_UFO">
+                    <embed src="Data_store/3932-20-3-6 Прогноз ЧС по ЮФО на 06 декабря.pdf" width="100%" height=900px />
+                </div>
+                <div id="CHS_VO">
+                    <embed src="Data_store/ИВ-219-22-544 Прогноз ЧС ВО на 07.12.2023.pdf" width="100%" height=900px />
+                </div>
+                <div id="IDIV">
+                    <embed src="Data_store/Информационное донесение ИВ-219-22-539.pdf" width="100%" height=900px />
+                </div>
+            </div>
         </div>
 
     </div>
+    <script>
+        function viewDiv1() {
+            document.getElementById("4MOD").style.display = "block";
+            document.getElementById("CHS_UFO").style.display = "none";
+            document.getElementById("CHS_VO").style.display = "none";
+            document.getElementById("IDIV").style.display = "none";
+
+            document.getElementById("color-input1").style.color = "#ffffff"
+            document.getElementById("color-input2").style.color = "#000"
+            document.getElementById("color-input3").style.color = "#000"
+            document.getElementById("color-input4").style.color = "#000"
+            document.getElementById("color-input1").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+        };
+        function viewDiv2() {
+            document.getElementById("4MOD").style.display = "none";
+            document.getElementById("CHS_UFO").style.display = "block";
+            document.getElementById("CHS_VO").style.display = "none";
+            document.getElementById("IDIV").style.display = "none";
+            document.getElementById("color-input1").style.color = "#000"
+            document.getElementById("color-input2").style.color = "#ffffff"
+            document.getElementById("color-input3").style.color = "#000"
+            document.getElementById("color-input4").style.color = "#000"
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+        };
+        function viewDiv3() {
+            document.getElementById("4MOD").style.display = "none";
+            document.getElementById("CHS_UFO").style.display = "none";
+            document.getElementById("CHS_VO").style.display = "block";
+            document.getElementById("IDIV").style.display = "none";
+            document.getElementById("color-input1").style.color = "#000"
+            document.getElementById("color-input2").style.color = "#000"
+            document.getElementById("color-input3").style.color = "#ffffff"
+            document.getElementById("color-input4").style.color = "#000"
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+        };
+
+        function viewDiv4() {
+            document.getElementById("4MOD").style.display = "none";
+            document.getElementById("CHS_UFO").style.display = "none";
+            document.getElementById("CHS_VO").style.display = "none";
+            document.getElementById("IDIV").style.display = "block";
+            document.getElementById("color-input1").style.color = "#000"
+            document.getElementById("color-input2").style.color = "#000"
+            document.getElementById("color-input3").style.color = "#000"
+            document.getElementById("color-input4").style.color = "#ffffff"
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "rgb(49, 70, 139)";
+        };
+
+        function myFunctionSearch() {
+            var input = document.getElementById("Search");
+            var filter = input.value.toLowerCase();
+            var nodes = document.getElementsByClassName('camera_block');
+
+            for (i = 0; i < nodes.length; i++) {
+                if (nodes[i].innerText.toLowerCase().includes(filter)) {
+                    nodes[i].style.display = "block";
+                } else {
+                    nodes[i].style.display = "none";
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
