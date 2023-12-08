@@ -76,9 +76,10 @@ body {
     padding: 15px 0px 15px;
     color: rgb(253, 253, 253);
     font-family: roboto, sans-serif;
-    font-size: calc(25px + 0.60vw);;
+    font-size: calc(25px + 0.60vw);
+    ;
     Font-weight: middle;
-    background-color:rgb(48, 51, 61);
+    background-color: rgb(48, 51, 61);
 }
 
 .container {
@@ -87,7 +88,7 @@ body {
 
 .block_nav_pdf {
     width: 30%;
-    min-width: 220px;
+    min-width: 230px;
     height: 780px;
     overflow: auto;
 }
@@ -95,10 +96,11 @@ body {
 .block_nav_pdf h1 {
     margin: 0 0 0 0;
     padding: 10px 10px 10px 10px;
+    min-height: 36px;
 
     color: rgb(253, 253, 253);
     font-family: roboto, sans-serif;
-    font-size: calc(14px + 0.45vw);
+    font-size: calc(14px + 0.35vw);
     background-color: rgb(48, 51, 61);
 }
 
