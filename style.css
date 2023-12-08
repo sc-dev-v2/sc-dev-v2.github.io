@@ -76,9 +76,9 @@ body {
     padding: 15px 0px 15px;
     color: rgb(253, 253, 253);
     font-family: roboto, sans-serif;
-    font-size: 25px;
+    font-size: calc(25px + 0.60vw);;
     Font-weight: middle;
-    background-color: #030325;
+    background-color:rgb(48, 51, 61);
 }
 
 .container {
@@ -87,7 +87,8 @@ body {
 
 .block_nav_pdf {
     width: 30%;
-    height: 770px;
+    min-width: 220px;
+    height: 780px;
     overflow: auto;
 }
 
@@ -97,9 +98,8 @@ body {
 
     color: rgb(253, 253, 253);
     font-family: roboto, sans-serif;
-    font-size: 18px;
-    Font-weight: middle;
-    background-color: #030325;
+    font-size: calc(14px + 0.45vw);
+    background-color: rgb(48, 51, 61);
 }
 
 .block_nav_pdf p {
@@ -108,7 +108,7 @@ body {
 
     color: rgb(0, 0, 0);
     font-family: roboto, sans-serif;
-    font-size: 16px;
+    font-size: calc(14px + 0.20vw);
     Font-weight: middle;
 
 }
